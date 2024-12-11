@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <form action="confirm.php">
+    <form action="confirm.php" method="POST">
      <table>
         <tr>
             <td>
@@ -42,7 +42,7 @@
         <br>
         <tr>
             <td colspan="2">
-            <input type="submit" id="submit" value="送る">
+                <input type="submit" id="submit" value="送る">
             </td>
         </tr>
      </table>
